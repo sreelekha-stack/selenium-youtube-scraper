@@ -1,5 +1,7 @@
 { pkgs }: {
     deps = [
-        pkgs.cowsay
+        pkgs.ungoogled-chromium
+pkgs.chromedriver
+pkgs.cowsay
     ];
 }
